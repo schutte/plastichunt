@@ -1,0 +1,4 @@
+*.o
+plastichunt
+plastichunt.conf
+.sconsign.dblite

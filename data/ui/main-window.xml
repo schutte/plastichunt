@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ui>
+    <menubar name="MainWindowMenuBar">
+        <menu action="DatabaseMenu">
+            <menuitem action="OpenDatabase" />
+            <menuitem action="RecentDatabases" />
+            <separator />
+            <menuitem action="ImportFile" />
+            <menuitem action="ExportFile" />
+            <separator />
+            <menuitem action="Quit" />
+        </menu>
+        <menu action="EditMenu">
+            <menuitem action="Preferences" />
+        </menu>
+        <menu action="MapMenu">
+            <menuitem action="ZoomIn" />
+            <menuitem action="ZoomOut" />
+        </menu>
+    </menubar>
+
+    <toolbar name="MainWindowToolBar">
+        <toolitem action="ZoomOut" />
+        <toolitem action="ZoomScale" />
+        <toolitem action="ZoomIn" />
+        <separator />
+        <toolitem action="MapProviders" />
+    </toolbar>
+</ui>
+<!-- vim: set sw=4 sts=4 et: -->
